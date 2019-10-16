@@ -1,0 +1,156 @@
+/* First Section */
+
+/* First Block */
+
+.header-section {
+    max-width: 100%;
+    display: flex;
+    min-height: 50vh;
+}
+
+.header-section-container {
+    background-image: url(/img/chair.png);
+    max-width: 100%;
+    height: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    /* width: calc((100% / 3) * 2); */
+    margin: 0 6%;
+    flex-grow: 1;
+
+}
+
+.logo-container {
+    margin-top: 100px;
+}
+
+.logo_desc {
+    color: #393d3c;
+    font-family: "Roboto Condensed";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 36px;
+    text-transform: uppercase;
+    width: 178px;
+    margin-top: 0;
+    margin-top: 4px;
+}
+
+.icon-container {
+    display: flex;
+}
+
+.icon-container_item {
+    margin-left: 9px;
+    margin-right: 9px;
+    margin-top: 125px;
+
+}
+
+.icon-container_item:first-child {
+    margin-left: 39px;
+}
+
+.icon-container_item .fa {
+    color: #7acec3;
+}
+
+
+/* Second Block */
+
+.menu-section {
+    flex-grow: 1;
+    position: relative;
+    max-width: 930px;
+    /* width: calc(100% / 3); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to top left, #7acec3 calc(50% - 1px), #e9eae2, #7acec3 calc(50% + 1px));
+}
+
+
+
+.nav {
+    margin-top: 100px;
+    border: 6px solid #e9eae2;
+    width: 234px;
+    height: 234px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Burger Menu */
+
+.burger {
+    width: 80px;
+    height: 34px;
+    cursor: pointer;
+    position: relative;
+    outline: none;
+}
+
+.burger-line{
+    display: block;
+    width: 100%;
+    height: 6px;
+    background-color: #e9eae2;
+    position: absolute;
+    left: 0;
+    transition: .3s all linear;
+}
+
+.burger-line_first{
+    top: 0;
+}
+
+.burger-line_second, .burger-line_third {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.burger-line_fourth {
+    bottom: 0;
+}
+
+.burger_active .burger-line_first, .burger_active .burger-line_fourth {
+    opacity: 0;
+}
+
+.burger_active .burger-line_second {
+    transform: translateY(-50%) rotate(45deg);
+}
+
+.burger_active .burger-line_third {
+    transform: translateY(-50%) rotate(-45deg);
+}
+
+.menu-section_text {
+    margin-top: 185px;
+    margin-left: 121px;
+    align-self: flex-start;
+    width: 220px;
+    color: #ffffff;
+    font-family: "Roboto Condensed";
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+.menu-section_text2 {
+    width: 300px;
+    color: #ffffff;
+    font-family: "Roboto Condensed";
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+.potter__heart-container {
+    margin-top: 2%;
+    margin-left: 15%;
+}

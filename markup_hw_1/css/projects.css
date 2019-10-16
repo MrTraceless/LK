@@ -1,0 +1,358 @@
+/* Project-Section */
+
+.project-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    /* max-width: 100%; */
+    /* height: auto; */
+    height: 2005px;
+    min-height: 50vh;
+}
+
+.project-section::before, .project-section::after {
+    content: '';
+    flex-basis: 100%;
+    width: 0;
+    order: 2;
+}
+
+.project-container {
+    position: relative;
+    flex-grow: 1;
+    max-width: 930px;
+    /* width: calc(100% / 3); */
+    height: 1000px;
+    display: flex;
+    background: linear-gradient(to top left, #ebb240 calc(50% - 1px), #e9eae2, #ebb240 calc(50% + 1px));
+}
+
+.project-menu_wrapper {
+    display: flex;
+    margin-left: 25%;
+    margin-top: 30%;
+
+}
+
+.project-arrow {
+    margin-top: 20px;
+    align-self: flex-start
+}
+
+.project-menu-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+}
+
+.project-menu_item {
+    font-family: "Roboto Condensed";
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+.project-menu_link {
+    color: #ffffff;
+}
+
+.project-menu_first-link{
+    color: #000000;
+}
+
+.project-container_title {
+    color: #fefefe;
+    font-family: "Roboto Condensed";
+    font-size: 96px;
+    font-weight: 400;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin: 0;
+    align-self: flex-end;
+    margin-bottom: 30%;
+}
+
+
+.fondue-block {
+    margin: 0 auto;
+    flex-grow: 2;
+    background-image: url(/img/lamp.png);
+    background-position: 90%;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    max-width: 1140px;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+.fondue__text-block {
+    margin-top: 10%;
+    margin-left: 18%;
+}
+
+.fondue__view-container {
+    margin-left: 210px;
+    margin-top: 150px;
+}
+
+.fondue__heart-wrapper {
+    margin: 13%;
+}
+
+.potter-block {
+    flex-grow: 1;
+    max-width: 930px;
+    height: 500px;
+    width: 100%;
+    background-image: url(/img/lamp2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 100%;
+    background-color: #dfe0d9;
+}
+
+.potter__text-block {
+    padding: 7% 9%;
+}
+
+.potter__block-desc {
+    width: 40%;
+}
+
+.potter__view-container {
+    margin-left: 10%;
+}
+
+
+
+/* Chair wrapper */
+.chair-wrapper {
+    display: flex;
+    font-display: column;
+    max-width: 930px;
+}
+
+/* Tabando block */
+
+.tabando-block {
+    background-image: url(/img/chair2.png); 
+    height: 1000px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+
+}
+
+.tabando__block-desc {
+    width: 329px;
+}
+
+.tabando__view-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 8%;
+    margin-left: 50px;
+}
+
+.tabando-wrapper {
+    display: flex;
+    padding-bottom: 30px;
+    justify-content: space-around;
+}
+
+.tabando__view-img {
+    align-self: flex-start;
+}
+
+.tabando__heart-container {
+    margin-left: 30px;
+}
+
+/* Fiji block */
+
+.fiji-block {
+    position: relative;
+    /* background-image: url(/img/chair5.png); */
+    background-color: #fff;
+    /* background-position: 30%; */
+    width: 930px;
+    height: 502px;
+    /* background-repeat: no-repeat; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.fiji__block_text {
+    width: 300px;
+}
+
+.fiji__block_desc {
+    width: 300px;
+}
+
+.fiji__heart-container {
+    margin-top: 49px;
+    align-self: center;
+}
+
+.fiji-img {
+
+}
+
+.fiji-wrapper {
+    width: 350px;
+
+}
+
+/* Louis Block */
+.chair-wrapper2 {
+    display: flex;
+    height: 1017px;
+    background-color: #eaeaea;
+    position: relative;
+    bottom: 0;
+    top: -1004px;
+
+}
+
+.louis-block {
+    background-image: url(/img/chair3.png);
+    background-repeat: no-repeat;
+    width: 600px;
+    max-width: 600px;
+    height: 930px;
+}
+
+.louis-wrapper {
+    padding-top: 25%;
+    padding-left: 10%;
+}
+
+.louis__viev-wrapper {
+    margin-top: 60px;
+}
+
+
+.louis__block_title {
+    color: #ffffff;
+}
+
+.louis__block_desc {
+    color: #ffffff;
+}
+.louis__h4_title {
+    color: #ffffff;
+}
+
+.louis__heart-container {
+    margin-top: 50px;
+    margin-left: 130px;
+}
+
+
+
+
+/* Chair Phone Block */
+.chair-phone-block {
+    background-image: url(/img/chair4.png);
+    background-position: 0 50%;
+    height: 930px;
+    width: 1472px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.chair-phone-wrapper {
+    padding-top: 15%;
+    margin-right: 50px;
+    display: flex;
+}
+
+.chair-phone__heart-container {
+    align-self: center;
+    margin-top: 55px;
+}
+
+/* OTHER CHAIR */
+
+.other-chair {
+    display: flex;
+}
+
+/* Sesann Block */
+.sesann-block {
+    background-color: #fff;
+    background-image: url(/img/chair6.png);
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
+    width: 1472px;
+    height: 600px;
+}
+
+.sesann-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 30%;
+
+}
+
+.sesann__viev-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.sesann__view-img {
+    align-self: flex-start;
+}
+
+.sesann__heart-container {
+    margin-left: 50px;
+}
+
+/* Alessi block */
+.alessi-block {
+    width: 600px;
+    height: 600px;
+    background-image: url(/img/img1.png);
+    background-repeat: no-repeat;
+    background-color: #fff;
+}
+
+.alessi-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 30%;
+}
+
+.alessi__viev-container {
+    margin-top: 30px;
+    margin-right: 55px;
+}
+
+.alessi__heart-container {
+    margin-top: 50px;
+    align-self: center;
+}
+
+/* Timeline block */
+.timeline-block {
+    width: 930px;
+    height: 600px;
+    background-color: #ebb240;
+}
+
+.timeline-block_line {
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to top left, #ebb240 calc(50% - 1px), #e9eae2, #ebb240 calc(50% + 1px));
+}
+
+.timeline-wrapper {
+    padding-left: 150px;
+    padding-top: 50px;
+}
